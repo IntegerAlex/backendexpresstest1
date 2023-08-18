@@ -1,0 +1,51 @@
+body {
+    display:flex;
+    align-items: center;
+    background-color: #7b7878;
+    margin: 0; /* Reset default margin */
+    
+}
+
+.signin {
+    margin-left: 500px;
+    width: 393px;
+    height: 852px;
+    border-radius: 50px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.placeholder {
+    width: 296px;
+    height: 57px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: #F5F5F5;
+    color: #000;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px; /* Add margin for spacing */
+    padding: 10px; /* Add padding for better input appearance */
+}
+
+.sign {
+    color: #000;
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: normal;
+    margin: 30px 0; /* Adjust top and bottom margin */
+}
+
+.btn {
+    width: 41px;
+    height: 39px;
+    margin-top: 20px;
+}
